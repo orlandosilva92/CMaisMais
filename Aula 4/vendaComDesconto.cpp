@@ -42,7 +42,7 @@ int main(){
 		default:
 			cout << "Opção de cliente invalida!\n\n";
 			break;
-	}
+	} 
 	
 	system("pause");
 	return 0;
