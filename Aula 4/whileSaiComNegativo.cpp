@@ -31,11 +31,11 @@ int main(){
 				intervalo4++;
 			}else{
 				cout << "Valor invalido.\n";
-				break;
+				intervaloForaIntervalo++;
 			}
 	}
 	
-	cout << "[0-10]: "<< intervalo1<< "\n[11-20]: "<< intervalo2<< "\n[21-30]: "<< intervalo3<< "\n[31-40]: "<< intervalo4<< ".\n";
+	cout << "[0-10]: "<< intervalo1<< "\n[11-20]: "<< intervalo2<< "\n[21-30]: "<< intervalo3 << "\n[31-40]: "<< intervalo4 << "\nNúmero fora do intervalor: "<< intervaloForaIntervalo <<".\n";
 	
 	system("pause");
 	return 0;
