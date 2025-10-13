@@ -11,7 +11,7 @@ int main(){
 	//(condição inicial;teste;incremento ou decremento)
 	for(numero = 1;numero < 11;numero++){
 		
-		cout << numero << "\n";
+		cout << numero;
 		
 	}
 	
